@@ -10,7 +10,7 @@
         "username": "",
         "password": "",
         "timeout_seconds": 10,
-        "connection_string": "DRIVER={SQLite3};DATABASE=${CWD}/parts.sqlite"
+        "connection_string": "DSN=bb-parts;"
     },
     "libraries": [
         {
@@ -151,14 +151,121 @@
                 {
                     "column": "Material",
                     "name": "Material",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Tolerance",
                     "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ]
+        },
+                {
+            "name": "pot",
+            "table": "pot",
+            "key": "IPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
                     "visible_on_add": true,
+                    "visible_in_chooser": false,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Resistance",
+                    "name": "Resistance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Taper",
+                    "name": "Taper",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Turns",
+                    "name": "Turns",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Gangs",
+                    "name": "Gangs",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Switch",
+                    "name": "Switch",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Switch Type",
+                    "name": "Switch Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
@@ -602,8 +709,8 @@
                 {
                     "column": "MPN",
                     "name": "Value",
-                    "visible_on_add": false,
-                    "visible_in_chooser": false,
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
@@ -630,14 +737,14 @@
                 {
                     "column": "Current",
                     "name": "Current",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Voltage",
                     "name": "Voltage",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
