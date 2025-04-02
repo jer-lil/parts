@@ -1,8 +1,3 @@
-**Note, the development of this library has moved to a Gitea repo which has much
-better support for diff'ing CSV files. If you would like access, please contact us.**
-
-This repo is a mirror that is occasionally updated, but may not be current.
-
 # GitPLM Parts Project
 
 **Maintaining eCAD parts libraries is a lot of work. Are you:**
@@ -45,18 +40,18 @@ Give it a try -- it will only take a few minutes.
 - In KiCad Preferences->Configure Paths:
   - set `GITPLM_PARTS` to the location of the parts repo
   - set `'GITPLM_3DMODELS` to the location of the 3d-models repo
-- install the following packages: `sqlite3 unixodbc libsqliteodbc sqlitebrowser`
+- install the following packages: `sqlite3 unixodbc libsqliteodbc`
+  - Arch Linux has the `sqliteodbc` package in AUR
+- optionally install the following packages:
+  `sqlitebrowser visidata inotify-tools`
 - make sure `/etc/odbcinst.ini` contains a
   [SQLite3 section](https://wiki.archlinux.org/title/Open_Database_Connectivity#SQLite)
-- Edit the `#gplm.kicad_dbl` `connection_string` field to point to the database
-  file in this repo. (If anyone knows how to make this path relative, let me
-  know.)
 - In KiCad Preferences->Manage Symbol Libraries:
-  - add the `#gplm.kicad_dbl`. This filename is prefixed with `#` so that it
-    shows up at the top of the list in the schematic symbol chooser.
-  - add all `g-*.kicad_sym` libraries
+  - add all the libraries in the `symbols` directory
+  - add the `database/#gplm.kicad_dbl`. This filename is prefixed with `#` so
+    that it shows up at the top of the list in the schematic symbol chooser.
 - In KiCad Preferences->Manage Footprint Libraries:
-  - add all `g-*.pretty` directories
+  - add all `g-*.pretty` directories in the `footprints` directory
 
 (above tested on Arch Linux, so the bits about SQLite3 libs may vary slightly on
 other platforms). Also tested on Ubuntu 23.04, use the same instructions as for
@@ -102,7 +97,9 @@ find errors in the file, since the `kicad_dbl` format appears to be JSON.
 
 If the symbol and footprint already exist, adding a new part is as simple as:
 
-1. adding a line to one of the `csv` files
+1. add a line to one of the `csv` files. The `csv` files should be sorted by
+   `IPN`. This ensures the `IPN` is unique (which is the lib/db key), and merge
+   operations are simpler if the file is always sorted.
 2. run `parts_db_create`
 3. restart KiCad
 
@@ -182,7 +179,15 @@ This might seem overly complex, but it is actually pretty easy as Sqlite3 can
 import `csv` files, so no additional tooling is required. See the
 [`envsetup.sh`](envsetup.sh) file for how this is done.
 
-`csv` files can be easily edited in [Libreoffice](https://www.libreoffice.org/).
+`csv` files can be easily edited in [Libreoffice](https://www.libreoffice.org/)
+or [VisiData](https://www.visidata.org/).
+
+If you use VisiData on Linux, please set the following option in `~/.visidatarc`
+to make the CSV line endings compatible with LibreOffice Calc:
+
+```
+options.csv_lineterminator = "\x0a"
+```
 
 A separate `csv` file is used for each
 [part category](https://github.com/git-plm/gitplm/blob/main/partnumbers.md#three-letter-category-code)
@@ -210,11 +215,21 @@ at places like [JLCPCB](https://jlcpcb.com/) and
 
 (this may not be work out so the approach may change)
 
+## Directories
+
+- `database` - CSV files and the sqlite database file
+- `symbols` - custom KiCad symbols
+- `footprints` - custom KiCad footprints
+- `spice` - spice models
+- `libs` - contains the KiCad standard library symbols/footprints. This is added
+  as a submodule here for convenience as a quick way to check out the KiCad
+  stdlib repos in case you want to modify them.
+
 ## Status/Support
 
 This library is currently being used successfully in several projects. We
 currently do most work in an Internal Gitea repo as the CSV diff functionality
-is so much better than Github, but occasionally push updates to this mirror.
+is so much better than Github, but periodically push updates to this mirror.
 
 For commercial support, training, or design assistance, please contact us at:
 
