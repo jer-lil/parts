@@ -1,0 +1,133 @@
+(footprint "Luna_NSL-32_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Optoisolator with LED and photoresistor")
+	(tags "optoisolator")
+	(property "Reference" "REF**"
+		(at 0.5 -6 180)
+		(layer "F.SilkS")
+		(uuid "3d16dbef-99a6-4bd3-86b8-57ed2e3da39e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Luna_NSL-32_Vertical"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "ae8bd70b-4b67-4a04-a339-d48e5fadf6b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e0ea90a-bd49-44ec-af94-89466a2644ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "433c8bf1-3630-4d43-add4-50f3dfb3d45d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start 2.653583 0.62901)
+		(mid -3.463637 -1.485081)
+		(end 2.499999 -3.999999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4502766-c36a-442f-99a1-92b4c2632714")
+	)
+	(fp_arc
+		(start 2.5 -4)
+		(mid -2.499998 0.799998)
+		(end 2.5 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c281a87-065a-4536-9abd-ef9836c75249")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 -1.5 0)
+		(layer "F.Fab")
+		(uuid "3de0c6fd-c9d6-47f8-a64a-f99fae463175")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.29 1.57)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.159)
+		(uuid "af3c99b2-00ac-4b17-9e2e-9e2314cb33e4")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -3.2)
+		(size 2.29 1.57)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64aac72c-6d10-4f13-8876-9e3cef8a5a38")
+	)
+	(pad "3" thru_hole oval
+		(at 3.5 -2.7)
+		(size 2.29 1.57)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9e51aea-25ab-43a3-a473-abfacc3c2a79")
+	)
+	(pad "4" thru_hole oval
+		(at 3.5 -0.5)
+		(size 2.29 1.57)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2aedaf60-2269-4f07-a668-d9b0bf11ae95")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/OptoDevice.3dshapes/Luna_NSL-32.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

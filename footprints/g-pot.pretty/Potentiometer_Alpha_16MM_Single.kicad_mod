@@ -1,0 +1,237 @@
+(footprint "Potentiometer_Alpha_16MM_Single"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_PanelPot_P09xSeries.pdf")
+	(tags "potentiometer vertical TT P0915N single")
+	(property "Reference" "REF**"
+		(at 0 10 0)
+		(layer "B.SilkS")
+		(uuid "9289dfc1-f152-4c2c-a362-3ae278e87903")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Potentiometer_Alpha_16MM_Single"
+		(at 0 12 0)
+		(layer "B.SilkS")
+		(uuid "8f4cb85b-c280-48f3-95f7-eb92ded16996")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.5 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3af75d9e-b8ba-49dd-9cd0-eb350555683f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.5 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f128fbf-b21f-46af-b436-2f32bdd115ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Name" "NAME**"
+		(at 0 14 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "050f056b-313f-4799-acb4-18fb6f7a5678")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.5 14.5)
+		(end -6.5 18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "695bbc97-c85d-4315-84e1-7f2b4538e4f6")
+	)
+	(fp_line
+		(start 6.5 14.5)
+		(end 6.5 18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "c1f5a6eb-8b3f-43f7-9689-c8016866e38a")
+	)
+	(fp_line
+		(start 6.5 18)
+		(end -6.5 18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "caa3b46a-ab8e-437a-8fb3-8cbfe327a65c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e3571136-e516-4c58-9ff6-8c3fe9577d84")
+	)
+	(fp_line
+		(start -7 13)
+		(end -7 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dee585be-0490-4018-9a02-2c860274d183")
+	)
+	(fp_line
+		(start 7 5)
+		(end 7 13)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b67b6fd9-51fd-4277-8a93-89409451a1c2")
+	)
+	(fp_line
+		(start 7 13)
+		(end -7 13)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91827581-ad56-4f6e-9c57-b2b6ae155e83")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.75 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6fbcca23-5ba6-40f7-8efa-aa73859f8a68")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d2a582f6-d2d6-49e2-966a-cb97361d8356")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "b2343a7c-cf78-4a0e-b67b-11b1ddcf352a")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "782c7583-db47-4219-b621-5a7ffa8d46df")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3ed78ec5-1b74-45e3-a56d-4914554e39c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -5 16.5)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "9503d313-8769-4a7f-919b-8550f8ab4e9a")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 16.5)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "6439c083-a5b8-49d3-b9f0-bcb8b716b6ac")
+	)
+	(pad "3" thru_hole roundrect
+		(at 5 16.5)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7515bdda-a73c-4f10-ba6d-37903c636159")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Potentiometers/Alpha_16mm_Single_PCB_RV16AF-41.step"
+		(offset
+			(xyz 0 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

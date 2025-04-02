@@ -1,0 +1,342 @@
+(footprint "SW_TOGGLE_DPDT_STD_SOLDER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3fb93fb7-63c3-4d6e-b55b-8ec4cfd7f328")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_TOGGLE_DPDT_STD_SOLDER"
+		(at 0.1 -2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "492458ce-c08c-4991-ad0d-8080319f4ff6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe5488a0-5b6d-429c-948c-2c033c58d021")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27c71504-8b24-4ab1-abb0-168430759d55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.4 -5.7)
+		(end 6.4 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2694797c-91e8-487e-afb4-550c0eab5f54")
+	)
+	(fp_line
+		(start -6.4 5.7)
+		(end -6.4 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03269c1c-2a6b-4a2e-9406-025a78db4a0a")
+	)
+	(fp_line
+		(start -6.4 5.7)
+		(end 6.4 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1faf5d5-1d19-4a61-9428-3e8fad955a27")
+	)
+	(fp_line
+		(start -6.1 4.3)
+		(end -6.1 5.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3b2b108-a3df-4920-b776-56d2b45841e0")
+	)
+	(fp_line
+		(start 6.4 5.7)
+		(end 6.4 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e26e86ae-7861-4c4b-9e83-6e3de229257b")
+	)
+	(fp_line
+		(start -6.7 -6)
+		(end 6.7 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01cd44e6-3028-4c9b-8dd4-96392419ce31")
+	)
+	(fp_line
+		(start -6.7 6)
+		(end -6.7 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e65edd0-57dd-4559-99d4-82378c7dc804")
+	)
+	(fp_line
+		(start 6.7 6)
+		(end -6.7 6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68689a97-4e5a-494a-b366-ade9b27f4a3f")
+	)
+	(fp_line
+		(start 6.7 6)
+		(end 6.7 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebd68667-1b53-4ba0-9e49-49f475eb4cdf")
+	)
+	(fp_line
+		(start -6.4 -5.7)
+		(end 6.4 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f25143b-3a2e-47dc-9611-690dd71e07cf")
+	)
+	(fp_line
+		(start -6.4 5.7)
+		(end -6.4 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d17a5d1d-2885-41fe-95e6-ce342daa8db2")
+	)
+	(fp_line
+		(start -6.4 5.7)
+		(end 6.4 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24e5666e-fdd3-4d01-9353-1ef31b64311e")
+	)
+	(fp_line
+		(start 6.4 5.7)
+		(end 6.4 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "319287c4-b9b4-4382-a4c0-b3f09fabed13")
+	)
+	(fp_text user "2"
+		(at -0.6 5.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c2e57f3-bc8f-41a1-8b58-a1d5ed607c62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "1"
+		(at -5.3 5.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "494347a3-20ed-4ca3-86e9-31b428bbde85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "6"
+		(at 4.2 -4.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "89f6cdbf-f182-4e9a-a6ab-0456c4692469")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "5"
+		(at -0.5 -4.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a4d97003-8222-4f1c-8d48-263ab227115f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3"
+		(at 4.1 5.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b6950392-1144-41c3-a983-01cd56375662")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "4"
+		(at -5.2 -4.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c331654a-f1c9-4ae1-9095-ca0b091af721")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.8 2.8 180)
+		(layer "F.Fab")
+		(uuid "c6ea2f18-4889-4dff-8e0a-3dfb0584c3c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -4.7 2.415 90)
+		(size 3 1.8)
+		(drill oval 2.4 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "e3a0d10d-bd5b-445c-8372-eb83b7a0abd9")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 2.415 90)
+		(size 3 1.8)
+		(drill oval 2.4 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "3b7108c3-ac36-4efd-957c-683ccfb7ddd6")
+	)
+	(pad "3" thru_hole roundrect
+		(at 4.7 2.415 90)
+		(size 3 1.8)
+		(drill oval 2.4 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "1f28892c-18d9-4f57-aa02-5f1e89befaf0")
+	)
+	(pad "4" thru_hole roundrect
+		(at -4.7 -2.415 90)
+		(size 3 1.8)
+		(drill oval 2.4 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "8d2b6b3b-fcc9-4584-8cd9-130571cd8cea")
+	)
+	(pad "5" thru_hole roundrect
+		(at 0 -2.415 90)
+		(size 3 1.8)
+		(drill oval 2.4 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "5b716031-625d-496b-b27e-0243f13f9740")
+	)
+	(pad "6" thru_hole roundrect
+		(at 4.7 -2.415 90)
+		(size 3 1.8)
+		(drill oval 2.4 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "2f2dbd9f-cc0b-4318-ac76-de5639078262")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeremiah/KiCad/kicad-user-lib/3dmodels/Switches/Toggle/StandardSize/DPDT_100DP1T1B1M1QEH.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,135 @@
+(footprint "Jack_0.25in_Solder_MechOnly"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "16e64dfb-33f8-4c44-81fb-621e9ed3edd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_0.25in_Solder_MechOnly"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "4b42e492-d75a-4fc7-8b1f-28919c752a14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d043d92-9b3c-474f-ac6b-a7de5818d3c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7488de9-f823-4151-a1fd-f0b86f1646cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -9.5 3.5)
+		(end 9.5 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "79918024-894c-4825-833f-66ad5360041e")
+	)
+	(fp_rect
+		(start -9 2.5)
+		(end 9 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "ecaa57f4-3598-4383-a362-531121ffe747")
+	)
+	(fp_rect
+		(start -8 1.5)
+		(end 8 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "10da148a-a9e8-4868-9669-577a4136f1a8")
+	)
+	(fp_rect
+		(start -6 0)
+		(end 6 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "9a90f460-ffc5-4df1-82ec-4d7868b0d81d")
+	)
+	(fp_rect
+		(start -4.75 -7)
+		(end 4.75 25.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "59b2744e-79ac-4602-a282-6db8863853b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "31009059-1e96-4708-8d3c-fc3389ba8ba1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Jacks/Audio/Jack_Qrtr_Open_Mono_NoSwitch_11.STEP"
+		(offset
+			(xyz 0 0 12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
