@@ -1,0 +1,143 @@
+(footprint "Footswitch_SPST"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c9e7a590-7214-4d45-ba2a-401f2cc41fff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Footswitch_SPST"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8706c777-0545-4f35-b82e-4c24efebcd3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56f41a6c-7ae6-4427-b57c-16f3e7fd4bfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bfeb55d-4613-45f2-88bc-2fe37d873994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -6.523)
+		(end 15 -6.523)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "7a164d33-d27c-4f11-af16-067bfa39946f")
+	)
+	(fp_line
+		(start -4 6.5)
+		(end 15 6.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "02f38f1f-3c3b-498f-84dc-26b3dbf182b3")
+	)
+	(fp_line
+		(start 15 -4)
+		(end 20 -4)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "f24eace3-f27c-4db3-99e6-423a262c3aa4")
+	)
+	(fp_line
+		(start 15 4)
+		(end 20 4)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "3fda707d-10d8-45fa-8582-43354394ef1a")
+	)
+	(fp_line
+		(start 15 6.5)
+		(end 15 -6.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "2261a8d4-6c4f-4147-a5f3-f8e80e9035bf")
+	)
+	(fp_arc
+		(start -4 6.5)
+		(mid -10.5 0)
+		(end -4 -6.5)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "1663d232-6f66-4b7c-9a93-ea09477a3ec2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "896ebcd6-d66f-4a63-9620-a959987c9ae6")
+	)
+	(embedded_fonts no)
+	(model "${GITPLM_3DMODELS}/Momentary footswitch.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -90)
+		)
+	)
+)

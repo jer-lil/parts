@@ -1,0 +1,251 @@
+(footprint "Input_Board_3D_BtmJacks"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b51eb707-755a-42b5-b65a-ba702be6e8a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Input_Board_3D_BtmJacks"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed599a95-f29e-450c-b097-13ae0a27f011")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c79cf6a-2473-4ecb-b86a-fac428148cb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd237a64-eff4-4f4b-9e1e-5bfb3605e87a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -29.4 30)
+		(end -29.4 46)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "4d2bd51f-5f37-4f59-a6b0-d839ea791f20")
+	)
+	(fp_line
+		(start -29.4 46)
+		(end -5 46)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "542fa002-3d11-48c1-a667-1d9a26b671c0")
+	)
+	(fp_line
+		(start -29.4 52)
+		(end -29.4 68)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "3d12f77f-298b-4c6c-90c2-908df42d1e8f")
+	)
+	(fp_line
+		(start -29.4 68)
+		(end -5 68)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "158d7fad-316d-4365-a8a3-77fd82732543")
+	)
+	(fp_line
+		(start -29.4 74)
+		(end -29.4 90)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "6497765d-07c4-4d92-8e94-957c1ee38488")
+	)
+	(fp_line
+		(start -29.4 90)
+		(end -5 90)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "c86352be-fca2-402d-9b60-a6c14bddb4e3")
+	)
+	(fp_line
+		(start -5 30)
+		(end -29.4 30)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "f34ee8d6-b5dd-43f0-aa6a-4aa57d405534")
+	)
+	(fp_line
+		(start -5 46)
+		(end -5 30)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "ea9ca63a-b45e-490d-a926-fba517c43cad")
+	)
+	(fp_line
+		(start -5 52)
+		(end -29.4 52)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "249150e1-9442-42ee-8d39-1979b20d9f43")
+	)
+	(fp_line
+		(start -5 68)
+		(end -5 52)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "d6f5d75b-f573-4e51-ad98-6fc37ab7a84d")
+	)
+	(fp_line
+		(start -5 74)
+		(end -29.4 74)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "f8a95271-3367-407d-8572-9c544688bddb")
+	)
+	(fp_line
+		(start -5 90)
+		(end -5 74)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "f3f998d5-11e3-4b36-91c5-e761932b6270")
+	)
+	(fp_line
+		(start -28.5 30)
+		(end -28.5 105)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "c28f1633-965b-4254-8481-4753f25b42b9")
+	)
+	(fp_line
+		(start -28.5 105)
+		(end -11 105)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "391ad215-08d1-4cf5-865c-0608f8066e14")
+	)
+	(fp_line
+		(start -11 90)
+		(end -5 90)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "04c72132-7c22-41a1-99b3-696f44908473")
+	)
+	(fp_line
+		(start -11 105)
+		(end -11 90)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "7e4d8ebc-3468-4435-8630-380d4c2f9f24")
+	)
+	(fp_line
+		(start -5 30)
+		(end -28.5 30)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "18959da1-97d3-47f6-911e-759fdbc21c19")
+	)
+	(fp_line
+		(start -5 90)
+		(end -5 30)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "2a236772-4e1a-4a60-80f9-019121d1a29c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_PROJECT_DIR}/tremolo-hardware/Rev_3/Input_Board/Input_Board.step"
+		(offset
+			(xyz 0 0 17)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

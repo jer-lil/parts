@@ -1,0 +1,10 @@
+IPN,MPN,Manufacturer,Description,Max Height,Form,Coil Resistance,Symbol,Footprint,Datasheet
+RLY-0000-0109,IM05GR,TE Connectivity,Relay DPDT 9V Non-Latch Gullwing 10x7.5x5.65,5.65mm,2 Form C (DPDT),579,g-rly:IM05,g-rly:Relay_DPDT_TE_IM05GR,
+RLY-0000-0209,IM05JR,TE Connectivity,Relay DPDT 9V Non-Latch J-Lead,5.65mm,2 Form C (DPDT),579,g-rly:IM05,,
+RLY-0001-0109,TQ2SA-9V,Panasonic,Relay DPDT 9V Non-Latch Gullwing,4.9mm,2 Form C (DPDT),579,,,
+RLY-0002-0109,TX2SA-9V,Panasonic,Relay DPDT 9V Non-Latch Gullwing,8.2mm,2 Form C (DPDT),579,,,
+RLY-0003-0109,G6K-2F DC9,Omron,Relay DPDT 9V Non-Latch Gullwing 10x7.8x5.2,5.2mm,2 Form C (DPDT),796,,g-rly:Relay_DPDT_Omron_G6K-2F,
+RLY-0004-0103,UD2-3NU,Kemet,Relay DPDT 3.3V Non-Latch Gullwing,5.45mm,2 Form C (DPDT),64.3,,,
+RLY-0004-0403,UD2-3NUN-L,Kemet,Relay DPDT 3.3V Non-Latch Gullwing,6.8mm,2 Form C (DPDT),64.3,,,
+RLY-0005-0103,UB2-3NU,Kemet,Relay DPDT 3.3V Non-Latch Gullwing,8.8mm,2 Form C (DPDT),64.3,,,
+RLY-0005-0403,UB2-3NUN-L,Kemet,Relay DPDT 3.3V Non-Latch Gullwing,9mm,2 Form C (DPDT),64.3,,,

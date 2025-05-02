@@ -1,0 +1,2 @@
+IPN,MPN,Manufacturer,Description,Symbol,Footprint,Color,I-forward-max,V-forward,Wavelength,Datasheet
+LED-0000-0000,5973301507F,Dialight,Green 573nm LED Indication - Discrete 2.2V 1208 (3020 Metric),Device:LED,g-dio:DIALIGHT_597-3XXX,GREEN,20mA,2.2V,573nm,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/560/LED_SMD_Selector_Guide_Jun2020.pdf

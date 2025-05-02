@@ -1,4 +1,20 @@
-IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Sim_Library,Sim_Name,Sim_Device,Sim_Pins
-ANA-0001-0001,TLV9001IDCKR,TI,"Single Op-amp, 1.8V to 5.5V rail-to-rail",Amplifier_Operational:TLV9001IDCK,Package_TO_SOT_SMD:SOT-353_SC-70-5,https://www.ti.com/lit/ds/symlink/tlv9004.pdf,,,,
-ANA-0002-0001,OPA990SIDBVR,TI,"Single Op-amp, 2.7V to 40V rail-to-rail, shutdown",g-ana:OPA990S,Package_TO_SOT_SMD:SOT-23-6,https://www.ti.com/lit/ds/symlink/opa990.pdf,,,,
-ANA-0002-0002,OPA990IDBVR,TI,"Single Op-amp, 2.7V to 40V rail-to-rail, shutdown",g-ana:OPA990,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/ds/symlink/opa990.pdf,${GITPLM_PARTS}/spice/opa2990.lib,OPA2990,SUBCKT,1=OUT 2=VEE 3=IN+ 4=IN- 5=VCC
+IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Sim_Library,Sim_Name,Sim_Device,Sim_Pins,Price (Qty 1),Price (Qty 100)
+ANA-1000-1DBV,TL071HIDBVR,TI,"Op Amp, 1CH, JFET, 4.5-40V, 5MHz, SOT-23-5",g-ana:OpAmp_Single_TI_DBV_SOT-23-5,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1743570328267,,,,,,
+ANA-1000-20IP,TL072IP,TI,"Op Amp, 2CH, JFET, 4.5-40V, 5MHz, PDIP-8",Device:Opamp_Dual,Package_DIP:DIP-8_W7.62mm_Socket,https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1743570328267,,,,,,
+ANA-1000-2H0D,TL072HIDR,TI,"Op Amp, 2CH, JFET, 4.5-40V, 5MHz, SOIC-8",Device:Opamp_Dual,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1743570328267,,,,,,
+ANA-1000-2HDF,TL072HIDDFR,TI,"Op Amp, 2CH, JFET, 4.5-40V, 5MHz, TSOT-23-8",Device:Opamp_Dual,g-ana:TSOT-23-8_TI_TL072,https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1743570328267,,,,,,
+ANA-1000-2HPW,TL072HIPWR,TI,"Op Amp, 2CH, JFET, 4.5-40V, 5MHz, TSSOP-8",Device:Opamp_Dual,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1743570328267,,,,,,
+ANA-1000-4HPW,TL074HIPWR,TI,"Op Amp, 4CH, JFET, 4.5-40V, 5MHz, TSSOP-14",Device:Opamp_Quad,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1743570328267,,,,,,
+ANA-1001-200D,OPA1688IDR,TI,"Op Amp, 2CH, RRO, 4.5-36V, 10MHz, Low-Noise, Hi-Current, SOIC-8",Device:Opamp_Dual,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopa1688,,,,,$1.38,$0.80
+ANA-1002-1DBV,OPA1677DBVR,TI,"Op Amp, 1CH, RRO, 4.5-36V, 16MHz, SOT-23-5",g-ana:OpAmp_Single_TI_DBV_SOT-23-5,Package_TO_SOT_SMD:SOT-23-5,,,,,,$0.66,$0.37
+ANA-1002-200D,OPA1678IDR,TI,"Op Amp, 2CH, RRO, 4.5-36V, 16MHz, SOIC-8",,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,,,,,$0.76,$0.43
+ANA-1002-40PW,OPA1679IPWR,TI,"Op Amp, 4CH, RRO, 4.5-36V, 16MHz, TSSOP-14",,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,,,,,,$1.15,$0.66
+ANA-1003-1DBV,OPA990IDBVR,TI,"Op Amp, 1CH, RRIO, 2.7-40V, 1MHz, Lo Pwr, SOT-23-5",g-ana:OpAmp_Single_TI_DBV_SOT-23-5,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/ds/symlink/opa990.pdf,${GITPLM_PARTS}/spice/opa2990.lib,OPA2990,SUBCKT,1=OUT 2=VEE 3=IN+ 4=IN- 5=VCC,$1.04,$0.59
+ANA-1003-1BVS,OPA990SIDBVR,TI,"Op Amp, 1CH, RRIO, 2.7-40V, 1MHz, Lo Pwr, SOT-23-6",g-ana:OpAmp_Single_TI_DBV_DRL_ShdnPin,Package_TO_SOT_SMD:SOT-23-6,https://www.ti.com/lit/ds/symlink/opa990.pdf,,,,,$1.13,$0.65
+ANA-1003-200D,OPA2990IDR,TI,"Op Amp, 2CH, RRIO, 1.8-5.5V, 1MHz, Lo Pwr, SOIC-8",Device:Opamp_Dual,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,,,,,,
+ANA-1003-20DF,OPA2990IDDFR,TI,"Op Amp, 2CH, RRIO, 1.8-5.5V, 1MHz, Lo Pwr, TSOT-23-8",Device:Opamp_Dual,g-ana:TSOT-23-8_TI_TL072,,,,,,,
+ANA-1003-40PW,OPA4990IPWR,TI,"Op Amp, 4CH, RRIO, 1.8-5.5V, 1MHz, Lo Pwr, TSSOP-14",Device:Opamp_Quad,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,,,,,,,
+ANA-1004-1DCK,TLV9001IDBVR,TI,"Op Amp, 1CH, RRIO, 1.8-5.5V, 1MHz, Lo Pwr, SOT-23-5",g-ana:OpAmp_Single_TI_DBV_SOT-23-5,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/ds/symlink/tlv9004.pdf,,,,,$0.35,$0.18
+ANA-1004-200D,TLV9002IDR,TI,"Op Amp, 2CH, RRIO, 1.8-5.5V, 1MHz, Lo Pwr, SOIC-8",Device:Opamp_Dual,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,,,,,,
+ANA-1004-20DF,TLV9002IDDFR,TI,"Op Amp, 2CH, RRIO, 1.8-5.5V, 1MHz, Lo Pwr, TSOT-23-8",Device:Opamp_Dual,g-ana:TSOT-23-8_TI_TL072,,,,,,,
+ANA-1004-4DYY,TLV9004QDYYRQ1,TI,"Op Amp, 4CH, RRIO, 1.8-5.5V, 1MHz, Lo Pwr, SOT-23-14",Device:Opamp_Quad,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,,,,,,$0.74,$0.42

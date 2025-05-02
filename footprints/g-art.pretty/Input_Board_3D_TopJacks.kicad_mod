@@ -1,0 +1,151 @@
+(footprint "Input_Board_3D_TopJacks"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6e278475-9353-4655-82b0-74829315ca31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Input_Board_3D_TopJacks"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdebe6a2-6856-4a3a-ae81-eed07ea626af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bb1a3f2-fed2-4d33-8803-f79ac243d5bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04315fb9-0dca-4372-833d-1d061f6a3516")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -29.5 6.5)
+		(end -29.5 108.5)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "3a5e6120-f1e2-478e-8a43-e42da36293a1")
+	)
+	(fp_line
+		(start -23.5 0.5)
+		(end -23.5 6.5)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "5ffe6ec2-31d2-4795-b914-d0775659c055")
+	)
+	(fp_line
+		(start -23.5 6.5)
+		(end -29.5 6.5)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "a5114f95-5da4-43eb-8f52-f1296569eef9")
+	)
+	(fp_line
+		(start -23.5 108.5)
+		(end -29.5 108.5)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "d5e6c53a-a89a-4c32-84e2-52b441030e63")
+	)
+	(fp_line
+		(start -23.5 114.5)
+		(end -23.5 108.5)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "cac9b6f3-b2fa-4f68-b464-96936681ee8c")
+	)
+	(fp_line
+		(start -23.5 114.5)
+		(end -1 114.5)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "047a7d55-2e53-4068-b1a7-648c7286c08a")
+	)
+	(fp_line
+		(start -1 0.5)
+		(end -23.5 0.5)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "68ffb7bc-6e42-4a2d-bb86-40ad2c1bf389")
+	)
+	(fp_line
+		(start -1 114.5)
+		(end -1 0.5)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "b1ef4f03-21da-4d86-9a88-764b233e3773")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_PROJECT_DIR}/tremolo-hardware/Rev_3/Input_Board/Input_Board.step"
+		(offset
+			(xyz 0 0 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

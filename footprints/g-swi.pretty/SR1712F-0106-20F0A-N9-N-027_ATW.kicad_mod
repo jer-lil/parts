@@ -332,4 +332,15 @@
 		(uuid "7d1138bc-fbda-4154-9b22-a037a6b4b8de")
 	)
 	(embedded_fonts no)
+	(model "${GITPLM_3DMODELS}/SR1712F-0108-20F0A-N9-N-027--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
