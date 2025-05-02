@@ -1,4 +1,0 @@
-IPN,MPN,Manufacturer,Description,Symbol,Footprint,Current,Voltage,Mounting Type,Datasheet
-DIO-0001-0001,1N34A,NTE,DIODE GERMANIUM POINT CONTACT DO7,Device:D,BB_Diodes:D_DO-41_SOD81_P10.0mm_Horizontal,50mA,0.3V,Through Hole,https://www.digikey.com/en/htmldatasheets/production/5437727/0/0/1/1n34a
-DIO-0002-0001,1N4001G-T,Diodes Incorporated,DIODE GEN PURP 50V 1A DO41,Device:D,BB_Diodes:D_DO-41_SOD81_P7.5mm_Horizontal,1A,1V @ 1A,Through Hole,https://www.diodes.com/assets/Datasheets/ds29002.pdf
-DIO-0002-0001,1N914,onsemi,DIODE GEN PURP 100V 200MA DO35,Device:D,BB_Diodes:D_DO-35_SOD27_P7.5mm_Horizontal,200mA,1V @ 10mA,Through Hole,https://www.onsemi.com/download/data-sheet/pdf/1n914-d.pdf

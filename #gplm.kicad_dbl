@@ -107,7 +107,7 @@
                     "show_name": false
                 },
                 {
-                    "column": "Capacitance",
+                    "column": "Value",
                     "name": "Value",
                     "visible_on_add": false,
                     "visible_in_chooser": false,
@@ -142,8 +142,15 @@
                     "show_name": false
                 },
                 {
-                    "column": "Voltage",
-                    "name": "Voltage",
+                    "column": "Voltage Rating (AC)",
+                    "name": "Voltage Rating (AC)",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Voltage Rating (DC)",
+                    "name": "Voltage Rating (DC)",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
                     "show_name": false
@@ -635,7 +642,7 @@
                     "show_name": false
                 },
                 {
-                    "column": "Resistance",
+                    "column": "Value",
                     "name": "Value",
                     "visible_on_add": false,
                     "visible_in_chooser": false,
@@ -672,13 +679,27 @@
                 {
                     "column": "Power",
                     "name": "Power",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Tolerance",
                     "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Case/Package",
+                    "name": "Case/Package",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
                     "show_name": false
