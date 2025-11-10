@@ -11,7 +11,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "OP"
-			(at 0 5.08 0)
+			(at -1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "NSL-32"
-			(at 0 -5.08 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,8 +35,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://lunainc.com/wp-content/uploads/2016/06/NSL-32.pdf"
-			(at 1.27 0 0)
+		(property "Datasheet" ""
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,12 +45,20 @@
 			)
 		)
 		(property "Description" "Optocoupler, LED Input, Photocell Output"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "optocoupler"
@@ -71,13 +79,13 @@
 				(hide yes)
 			)
 		)
-		(symbol "NSL-32_0_1"
+		(symbol "NSL-32_1_1"
 			(rectangle
-				(start -5.08 3.81)
-				(end 5.08 -3.81)
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
 				(stroke
-					(width 0.254)
-					(type default)
+					(width 0.127)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -85,7 +93,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 2.54) (xy -2.54 2.54)
+					(xy -0.762 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -97,7 +105,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.794 -2.54) (xy -5.08 -2.54)
+					(xy -0.762 0) (xy -0.635 0.381) (xy -0.381 -0.381) (xy -0.127 0.381) (xy 0.127 -0.381) (xy 0.381 0.381)
+					(xy 0.635 -0.381) (xy 0.762 0)
 				)
 				(stroke
 					(width 0.254)
@@ -109,7 +118,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.794 -2.54) (xy -2.032 -2.54) (xy -2.032 2.54) (xy -2.794 2.54)
+					(xy 0.762 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -119,154 +128,20 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.016 1.016) (xy -3.048 1.016) (xy -2.032 -1.016) (xy -1.016 1.016) (xy -1.016 1.016) (xy -1.016 1.016)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.016 -1.016) (xy -3.048 -1.016) (xy -3.048 -1.016)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 0.508) (xy 1.27 1.016) (xy 1.27 1.016)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 -0.508) (xy 1.27 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.254 1.016) (xy 1.27 1.016) (xy 0.508 0.508) (xy 0.508 0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.254 0) (xy 1.27 0) (xy 0.508 -0.508) (xy 0.508 -0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 1.778 1.524)
-				(end 3.302 -1.524)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 1.524) (xy 2.54 2.54) (xy 5.08 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.524) (xy 2.54 -2.54) (xy 5.08 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "NSL-32_1_1"
-			(pin passive line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "1/2"
+				(at -1.651 0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 132 0 1)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "K"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 2.54 180)
-				(length 2.54)
+				(at -3.81 0 0)
+				(length 1.27)
 				(name "R"
 					(effects
 						(font
@@ -277,14 +152,14 @@
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 180)
-				(length 2.54)
+				(at 3.81 0 180)
+				(length 1.27)
 				(name "R"
 					(effects
 						(font
@@ -295,7 +170,187 @@
 				(number "3"
 					(effects
 						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NSL-32_2_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -0.381 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.381 -0.762) (xy -0.381 0.762) (xy 1.143 0) (xy -0.381 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.016) (xy 0.508 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.286) (xy 0 1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.286) (xy 0.508 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.016) (xy 1.27 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -0.762) (xy 1.143 0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.286) (xy 0.762 1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.286) (xy 1.27 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "2/2"
+				(at -1.524 -0.635 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 132 0 1)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "A"
+					(effects
+						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1597,7 +1652,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1615,7 +1670,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1633,7 +1688,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -1,6 +1,6 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,"Vds,max","Vgs,max",Vth,"ID,max"
-XTR-0001-0001,RUM001L02T2CL,Rohm,Mosfet 1.2V N-Chan,Device:Q_NMOS_GSD,Package_TO_SOT_SMD:SOT-723,https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rum001l02t2cl-e.pdf,,,,
-XTR-0004-0001,2N7002,Onsemi,Mosfet 60V N-CH 5ohm,Device:Q_NMOS_GSD,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/download/data-sheet/pdf/nds7002a-d.pdf,,,,
+XTR-0001-0001,RUM001L02T2CL,Rohm,Mosfet 1.2V N-Chan,Transistor_FET:Q_NMOS_GSD,Package_TO_SOT_SMD:SOT-723,https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rum001l02t2cl-e.pdf,,,,
+XTR-0004-0001,2N7002,Onsemi,Mosfet 60V N-CH 5ohm,Transistor_FET:Q_NMOS_GSD,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/download/data-sheet/pdf/nds7002a-d.pdf,,,,
 XTR-0006-0001,PSMN075-100MSEX,Nexperia USA Inc.,Mosfet 100V N-CH 18A,g-fet:N_CH_G3S1D,Package_TO_SOT_SMD:LFPAK33,https://assets.nexperia.com/documents/data-sheet/PSMN075-100MSE.pdf,,,,
 XTR-0006-0002,PSMN040-100MSEX,Nexperia USA Inc.,Mosfet 100V N-CH 30A,g-fet:N_CH_G3S1D,Package_TO_SOT_SMD:LFPAK33,https://assets.nexperia.com/documents/data-sheet/PSMN040-100MSE.pdf,,,,
 XTR-0008-0001,BSC190N12NS3GATMA1,Infineon Technologies,Mosfet 120V N-CH 8.6A,g-fet:N_CH_G3S1D,Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm,https://www.infineon.com/dgdl/BSC190N12NS3+Rev2.5.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30432239cccd0122a7bb1e767d49,,,,
@@ -14,3 +14,5 @@ XTR-0015-0001,CSD87501L,Texas Instruments,N-CH Mosfet Array 2.5W Surface Mount 1
 XTR-0016-0001,SIS472DN-T1-GE3,Vishay Siliconix,"N-Channel 30 V 20A (Tc) 3.5W (Ta), 28W (Tc) Surface Mount PowerPAK® 1212-8",g-fet:N_CH_G3S1D,Package_SO:Vishay_PowerPAK_1212-8_Single,https://www.vishay.com/docs/67307/sis472dn.pdf,,,,
 XTR-1000-0001,2N5458,Onsemi,JFET N-CH 25V TO92,Device:Q_NJFET_DSG,Package_TO_SOT_THT:TO-92_Inline_Wide,https://www.onsemi.com/pdf/datasheet/2n5457-d.pdf,,,,
 XTR-1001-0001,DMP3099L,Diodes,MOSFET P-CH 30V 3.8A SOT23,Transistor_FET:DMP3099L,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/DMP3099L.pdf,,,,
+XTR-1002-0001,DMN3023L-7,Diodes,MOSFET N-CH 30V/±20V 6.2A 25mΩ 1.8Vth 18.4nC 873pF SOT-23,Transistor_FET:Q_NMOS_GSD,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/DMN3023L.pdf,,,,
+XTR-1003-0001,DMN62D0U-7,Diodes,MOSFET N-CH 60V/±20V 0.38A 2Ω 1.0Vth 0.5nC 32pF SOT-23,Transistor_FET:Q_NMOS_GSD,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/DMN62D0U.pdf,,,,

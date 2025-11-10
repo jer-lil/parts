@@ -1,0 +1,201 @@
+(footprint "UQFN-10_1.4x1.8mm_P0.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "UQFN, 10 Pin (https://www.onsemi.com/pub/Collateral/488AT.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "UQFN NoLead ONSemi-UQFN10-488AT-01")
+	(property "Reference" "REF**"
+		(at 0 -1.625 0)
+		(layer "F.SilkS")
+		(uuid "af907773-fe95-41ed-a5a4-cc8396b982de")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "UQFN-10_1.4x1.8mm_P0.4mm"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "f78325e8-8ead-4556-aa24-ca1a03e0403a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a3496fc-3eb8-433f-9675-58429c2d1e22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f25ce3d-62eb-46c2-8df1-039fbe71f306")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.725 0.9)
+		(end -0.725 0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20b98a6a-b40b-4b39-97f8-f577a7f7bdf6")
+	)
+	(fp_line
+		(start 0.725 -0.9)
+		(end 0.725 -0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1de73249-fa94-460c-ad59-f889d1beea3e")
+	)
+	(fp_line
+		(start 0.725 0.9)
+		(end 0.725 0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0184be29-f9ab-4e74-8ac3-8f3fe99b13df")
+	)
+	(fp_circle
+		(center -0.825 -0.6)
+		(end -0.75 -0.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "19635cf6-fd24-4048-b7df-f88415eaf048")
+	)
+	(fp_poly
+		(pts
+			(xy -0.7 -0.55) (xy -0.7 0.9) (xy 0.7 0.9) (xy 0.7 -0.9) (xy -0.35 -0.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7e868a69-6605-42b7-8592-207c6f7ae4df")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "ef6683bc-c38c-4693-9423-ce5668fe1b66")
+		(effects
+			(font
+				(size 0.45 0.45)
+				(thickness 0.07)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.525 -0.2)
+		(size 0.65 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5edbcfd4-c53e-47c1-899d-6d2fdc513557")
+	)
+	(pad "2" smd roundrect
+		(at -0.575 0.2)
+		(size 0.55 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0377e52c-4fa8-40a9-a7af-42dada8dda39")
+	)
+	(pad "3" smd roundrect
+		(at -0.4 0.775 90)
+		(size 0.55 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "dab7c1b7-8a15-46f1-ae72-764d462a4dad")
+	)
+	(pad "4" smd roundrect
+		(at 0 0.775 90)
+		(size 0.55 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b9dbf3ec-50f7-45ee-bb08-d7b6302ff01c")
+	)
+	(pad "5" smd roundrect
+		(at 0.4 0.775 90)
+		(size 0.55 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3021588a-b20d-43ab-9c81-5981e52a15d6")
+	)
+	(pad "6" smd roundrect
+		(at 0.575 0.2)
+		(size 0.55 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f9815820-21e3-4301-aacf-99719c831bbc")
+	)
+	(pad "7" smd roundrect
+		(at 0.575 -0.2)
+		(size 0.55 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "291cd9aa-92a0-49e1-b0f6-491ed8394b51")
+	)
+	(pad "8" smd roundrect
+		(at 0.4 -0.775 90)
+		(size 0.55 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9dc0e618-223b-4611-bf21-88ee513450da")
+	)
+	(pad "9" smd roundrect
+		(at 0 -0.775 90)
+		(size 0.55 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d376fdc5-b27e-4b62-98af-bdc6620bb75c")
+	)
+	(pad "10" smd roundrect
+		(at -0.4 -0.775 90)
+		(size 0.55 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "142b93e6-e48c-4e5d-9701-ab42240f6414")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-10_1.4x1.8mm_P0.4mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

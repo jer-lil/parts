@@ -1,4 +1,4 @@
-(footprint "Potentiometer_11MM_1-Gang_Bourns_PRS11R-4xxF-N"
+(footprint "Potentiometer_9MM_1-Gang_Alpha_RD901F_Recessed"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Potentiometer_11MM_1-Gang_Bourns_PRS11R-4xxF-N"
+	(property "Value" "Potentiometer_9MM_1-Gang_Alpha_RD901F_Recessed"
 		(at 0 3.5 0)
 		(layer "B.SilkS")
 		(uuid "8f4cb85b-c280-48f3-95f7-eb92ded16996")
@@ -67,8 +67,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -6 -6.7)
-		(end -6 -1.8)
+		(start -5.47 -4.97)
+		(end -5.47 -2.25)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -77,8 +77,8 @@
 		(uuid "8ec38c1b-5ac5-4bbd-80be-65c823e9671f")
 	)
 	(fp_line
-		(start -6 2)
-		(end -6 6.7)
+		(start -5.47 2.25)
+		(end -5.47 6.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -87,8 +87,8 @@
 		(uuid "695bbc97-c85d-4315-84e1-7f2b4538e4f6")
 	)
 	(fp_line
-		(start -3.7 6.7)
-		(end -6 6.7)
+		(start -3.65 6.62)
+		(end -5.47 6.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -97,8 +97,8 @@
 		(uuid "caa3b46a-ab8e-437a-8fb3-8cbfe327a65c")
 	)
 	(fp_line
-		(start 6 -6.7)
-		(end -6 -6.7)
+		(start 5.47 -4.97)
+		(end -5.47 -4.97)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,8 +107,8 @@
 		(uuid "e8847eca-6e08-4836-94b8-041233620643")
 	)
 	(fp_line
-		(start 6 -6.7)
-		(end 6 -2)
+		(start 5.47 -4.97)
+		(end 5.47 -2.25)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -117,8 +117,8 @@
 		(uuid "55450259-7946-4933-a049-bfb6979a00af")
 	)
 	(fp_line
-		(start 6 2)
-		(end 6 6.7)
+		(start 5.47 2.25)
+		(end 5.47 6.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -127,8 +127,8 @@
 		(uuid "c3a1e650-dc51-4b1f-91be-04e4bf7aa9b6")
 	)
 	(fp_line
-		(start 6 6.7)
-		(end 3.7 6.7)
+		(start 5.47 6.62)
+		(end 3.65 6.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -137,8 +137,8 @@
 		(uuid "7220daab-fa37-4a8b-94f2-f085cd696038")
 	)
 	(fp_line
-		(start -3.7 8.8)
-		(end -3.7 6.7)
+		(start -4 9)
+		(end -4 7)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -147,8 +147,8 @@
 		(uuid "ec450d3c-955d-482f-9a17-3373eddbd8e0")
 	)
 	(fp_line
-		(start -3.7 8.8)
-		(end 3.7 8.8)
+		(start -4 9)
+		(end 4 9)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -157,8 +157,8 @@
 		(uuid "5d5a3367-b6a6-43a5-8a4e-99461f9023e1")
 	)
 	(fp_line
-		(start 3.7 8.8)
-		(end 3.7 6.7)
+		(start 4 9)
+		(end 4 7)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -167,8 +167,18 @@
 		(uuid "3934684b-e6c7-4272-8f95-d8df8aa963fb")
 	)
 	(fp_line
-		(start -6.1 -6.8)
-		(end 6.1 -6.8)
+		(start -7 2.25)
+		(end -7 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d8eed40-4e72-48ce-b635-3d3b06dbe638")
+	)
+	(fp_line
+		(start -5.6 -5.1)
+		(end 5.6 -5.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -177,8 +187,18 @@
 		(uuid "c955b3f9-120e-4d6b-9cbc-18ee1a5cc290")
 	)
 	(fp_line
-		(start -6.1 6.8)
-		(end -6.1 -6.8)
+		(start -5.6 -2.25)
+		(end -7 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f4b0b59-b3a9-4ade-b020-fa01439bf64b")
+	)
+	(fp_line
+		(start -5.6 -2.25)
+		(end -5.6 -5.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -187,8 +207,28 @@
 		(uuid "468b6eb1-73b7-4386-b281-bad7d6119196")
 	)
 	(fp_line
-		(start -3.7 6.8)
-		(end -6.1 6.8)
+		(start -5.6 2.25)
+		(end -7 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0565bdc9-e3b9-4f2b-a312-51a47b6cd55c")
+	)
+	(fp_line
+		(start -5.6 6.75)
+		(end -5.6 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2f7d22f-28d1-47be-b4a1-9bd59239e974")
+	)
+	(fp_line
+		(start -3.65 6.75)
+		(end -5.6 6.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -197,8 +237,8 @@
 		(uuid "606db5d4-7842-4484-a4e7-9fdb107e986b")
 	)
 	(fp_line
-		(start -3.7 8.8)
-		(end -3.7 6.8)
+		(start -3.65 8.65)
+		(end -3.65 6.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -207,8 +247,8 @@
 		(uuid "b8a909f1-fc2e-4758-948c-e0fe0087dac0")
 	)
 	(fp_line
-		(start 3.7 8.8)
-		(end -3.7 8.8)
+		(start 3.65 8.65)
+		(end -3.65 8.65)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -217,8 +257,8 @@
 		(uuid "e63b7c2d-1dfe-4530-95a9-4b52cc8f3306")
 	)
 	(fp_line
-		(start 3.7 8.8)
-		(end 3.7 6.8)
+		(start 3.65 8.65)
+		(end 3.65 6.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -227,8 +267,18 @@
 		(uuid "afc87858-8981-4993-abe9-3a119f4a0a77")
 	)
 	(fp_line
-		(start 6.1 6.8)
-		(end 3.7 6.8)
+		(start 5.6 -2.25)
+		(end 5.6 -5.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b9210ad-25b0-4847-986d-f9ed3a316871")
+	)
+	(fp_line
+		(start 5.6 6.75)
+		(end 3.65 6.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -237,8 +287,8 @@
 		(uuid "8102cbc0-d351-40fe-b350-9942bdb1ff4f")
 	)
 	(fp_line
-		(start 6.1 6.8)
-		(end 6.1 -6.8)
+		(start 5.6 6.75)
+		(end 5.6 2.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -247,8 +297,38 @@
 		(uuid "4f1eb94d-76e1-43b5-b22c-106b2edd627d")
 	)
 	(fp_line
-		(start -5.85 -6.55)
-		(end 5.85 -6.55)
+		(start 7 -2.25)
+		(end 5.6 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5dda74fe-fde3-45e2-ac86-6febaf430c51")
+	)
+	(fp_line
+		(start 7 2.25)
+		(end 5.6 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77a66840-4075-4458-bc96-2cdf2d241764")
+	)
+	(fp_line
+		(start 7 2.25)
+		(end 7 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44564717-a61b-4837-885b-b89769633722")
+	)
+	(fp_line
+		(start -5.35 -4.85)
+		(end 5.35 -4.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -257,8 +337,8 @@
 		(uuid "8cf3149e-122b-449f-932a-fdf727f59e11")
 	)
 	(fp_line
-		(start -5.85 6.55)
-		(end -5.85 -6.55)
+		(start -5.35 6.5)
+		(end -5.35 -4.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -267,28 +347,8 @@
 		(uuid "dee585be-0490-4018-9a02-2c860274d183")
 	)
 	(fp_line
-		(start -0.5 0)
-		(end 0.5 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "b2343a7c-cf78-4a0e-b67b-11b1ddcf352a")
-	)
-	(fp_line
-		(start 0 -0.5)
-		(end 0 0.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "782c7583-db47-4219-b621-5a7ffa8d46df")
-	)
-	(fp_line
-		(start 5.85 -6.55)
-		(end 5.85 6.55)
+		(start 5.35 -4.85)
+		(end 5.35 6.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -297,8 +357,8 @@
 		(uuid "b67b6fd9-51fd-4277-8a93-89409451a1c2")
 	)
 	(fp_line
-		(start 5.85 6.55)
-		(end -5.85 6.55)
+		(start 5.35 6.5)
+		(end -5.35 6.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -317,6 +377,26 @@
 		(layer "F.Fab")
 		(uuid "6fbcca23-5ba6-40f7-8efa-aa73859f8a68")
 	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "b2343a7c-cf78-4a0e-b67b-11b1ddcf352a")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "782c7583-db47-4219-b621-5a7ffa8d46df")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -329,17 +409,33 @@
 		)
 	)
 	(pad "" thru_hole oval
-		(at -4.65 0)
-		(size 2.8 3.7)
-		(drill oval 1.8 2.7)
+		(at -4.75 0)
+		(size 2.8 4.6)
+		(drill oval 1.8 3.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c6616e6a-1951-41ce-a7fc-5cdb0943b9e6")
 	)
 	(pad "" thru_hole oval
-		(at 4.65 0)
-		(size 2.8 3.7)
-		(drill oval 1.8 2.7)
+		(at 0 -4.75 90)
+		(size 1.8 4.2)
+		(drill oval 1.2 3.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "08ca2efc-9692-4e95-8e0f-0a64eba738a0")
+	)
+	(pad "" thru_hole oval
+		(at 0 4.25 90)
+		(size 1.8 4.2)
+		(drill oval 1.2 3.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d01a91fc-e031-4108-87ae-902ae8819fdb")
+	)
+	(pad "" thru_hole oval
+		(at 4.75 0)
+		(size 2.8 4.6)
+		(drill oval 1.8 3.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "45467055-34ef-4757-9975-9562a41a5956")
@@ -361,6 +457,13 @@
 		(uuid "6439c083-a5b8-49d3-b9f0-bcb8b716b6ac")
 	)
 	(pad "3" thru_hole circle
+		(at -4.3 5.35)
+		(size 2 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1fb4b9c1-ad56-4115-9791-0fb4b2dfacba")
+	)
+	(pad "3" thru_hole circle
 		(at 2.5 7.5)
 		(size 1.8 1.8)
 		(drill 1)
@@ -368,16 +471,24 @@
 		(remove_unused_layers no)
 		(uuid "7515bdda-a73c-4f10-ba6d-37903c636159")
 	)
+	(pad "3" thru_hole circle
+		(at 4.3 -3.8)
+		(size 2 2)
+		(drill 0.000001)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e199cdf-f763-4a7d-94f0-06d59d9b8fb3")
+	)
 	(embedded_fonts no)
-	(model "${GITPLM_3DMODELS}/PRS11R-415F-N103B1.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Potentiometers/Alpha_9mm_Single_PCB_RD901F-40-15R1.step"
 		(offset
-			(xyz 0 0 6.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

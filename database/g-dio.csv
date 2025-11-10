@@ -4,7 +4,7 @@ DIO-0001-04V7,MM3Z4V7C,On Semi,Zener 4.7V,Device:D_Zener,Diode_SMD:D_SOD-323F,0.
 DIO-0001-05V6,MM3Z5V6C,On Semi,Zener 5.6V,Device:D_Zener,Diode_SMD:D_SOD-323F,0.2W,5.6V,https://www.mouser.com/datasheet/2/308/1/MM3Z9V1C_D-2315854.pdf,SMD
 DIO-0002-0001,US1M-13-F,Diodes Incorporated,"1A Rectifier, 1000V",Device:D,Diode_SMD:D_SMA,1A,1000V,https://www.diodes.com/assets/Datasheets/ds16008.pdf,SMD
 DIO-0003-0001,BAT54CLT1G,OnSemi,Dual Schottky 30V 200mA common cathode,Diode:BAT54C,Package_TO_SOT_SMD:SOT-23,200mA,30V,https://www.onsemi.com/pdf/datasheet/bat54clt1-d.pdf,SMD
-DIO-0004-0001,BAV19WS-E3-08,Vishay General Semiconductor - Diodes Division,1A 250V general purpose,Device:D,"Diode_SMD:D_SOD-323,  D_SOD-323F",,,,SMD
+DIO-0004-0001,BAV19WS-E3-08,Vishay General Semiconductor - Diodes Division,1A 250V general purpose,Device:D,Diode_SMD:D_SOD-323,,,,SMD
 DIO-0005-0001,BAT54WS,Diotec Semiconductor,Schottky 30V 100mA,Device:D_Schottky,Diode_SMD:D_SOD-323,,,,SMD
 DIO-0006-0001,CMMSH1-40L TR PBFREE,Central Semiconductor Corp,Schottky 40V 1A,Device:D_Schottky,Diode_SMD:D_SOD-123,1A,40V,https://my.centralsemi.com/datasheets/CMMSH1-40L.PDF,SMD
 DIO-0007-0001,CMMSH1-100G TR PBFREE,Central Semiconductor Corp,Schottky 100V 1A,Device:D_Schottky,Diode_SMD:D_SOD-123,1A,100V,https://my.centralsemi.com/datasheets/CMMSH1-40.PDF,SMD
@@ -17,3 +17,6 @@ DIO-0011-0001,NSR20F30NXT5G,onsemi,DIODE SCHOTTKY 30V 2A 2DSN,Device:D_Schottky,
 DIO-1001-0001,1N34A,NTE,DIODE GERMANIUM POINT CONTACT DO7,Device:D,g-dio:D_DO-41_SOD81_P10.0mm_Horizontal,50mA,0.3V,https://www.digikey.com/en/htmldatasheets/production/5437727/0/0/1/1n34a,Through Hole
 DIO-1002-0001,1N4001G-T,Diodes Incorporated,DIODE GEN PURP 50V 1A DO41,Device:D,g-dio:D_DO-41_SOD81_P7.5mm_Horizontal,1A,1V @ 1A,https://www.diodes.com/assets/Datasheets/ds29002.pdf,Through Hole
 DIO-1003-0001,1N914,onsemi,DIODE GEN PURP 100V 200MA DO35,Device:D,g-dio:D_DO-35_SOD27_P7.5mm_Horizontal,200mA,1V @ 10mA,https://www.onsemi.com/download/data-sheet/pdf/1n914-d.pdf,Through Hole
+DIO-1005-0001,1N4148WT,onsemi,DIODE STANDARD 75V 200MA SOD523F,Device:D,Diode_SMD:D_SOD-523F,200mA,1V @ 10mA,https://www.diodes.com/assets/Datasheets/1N4148WS_BAV16WS.pdf,SMD
+DIO-2001-0001,PMEG4010CEAX,Nexperia,DIODE SCHOTTKY 40V 1A SOD323,Device:D_Schottky,Diode_SMD:D_SOD-323,1A,840 mV @ 1 A,https://assets.nexperia.com/documents/data-sheet/PMEG4010CEA.pdf,SMD
+DIO-2002-0001,PMEG3002EJ,Nexperia,DIODE SCHOTTKY 30V 500MA SOD323F,Device:D_Schottky,Diode_SMD:D_SOD-323,500mA,480 mV @ 200 mA,https://assets.nexperia.com/documents/data-sheet/PMEG3002EJ.pdf,SMD

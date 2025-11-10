@@ -349,7 +349,7 @@
 		)
 	)
 	(pad "" thru_hole oval
-		(at -4.75 0)
+		(at -4.65 0)
 		(size 2.8 3.7)
 		(drill oval 1.8 2.7)
 		(layers "*.Cu" "*.Mask")
@@ -357,7 +357,7 @@
 		(uuid "c6616e6a-1951-41ce-a7fc-5cdb0943b9e6")
 	)
 	(pad "" thru_hole oval
-		(at 4.75 0)
+		(at 4.65 0)
 		(size 2.8 3.7)
 		(drill oval 1.8 2.7)
 		(layers "*.Cu" "*.Mask")

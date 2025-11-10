@@ -19,3 +19,4 @@ SWI-1003-0108,SR1712F-0108-20F0A-N9-N-027 ,Alpha,Rotary Switches 1 POLE 8 POS D 
 SWI-1003-0108,SR1712F-0109-15K0A-N9-N-027,Alpha,Rotary Switches 1 POLE 9 POS D SHAFT – 15MM Knurled Shaft,1P9T,Rotary,7.5mm,15mm,M9*0.75,7mm,g-swi:SW_Rotary_SR1712F_1P9T,g-swi:SR1712F-0106-15F0A-N9-N-027_ATW,https://www.mouser.com/datasheet/2/13/SR1712F-1815245.pdf
 SWI-1004-VH58,PTS645VL58-2 LFS,C&K,SWITCH TACTILE SPST-NO RA H:5.8mm 200gf,SPST-NO,Momentary,,,,,Switch:SW_SPST,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS,https://www.ckswitches.com/media/1471/pts645.pdf
 SWI-1004-VH83,PTS645VL83-2 LFS,C&K,SWITCH TACTILE SPST-NO RA H:5.8mm 200gf,SPST-NO,Momentary,,,,,Switch:SW_SPST,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS,https://www.ckswitches.com/media/1471/pts645.pdf
+SWI-2005-3PDT,SF17020F-0302,Alpha,Footswitch 3PDT Alpha PC Mount,3PDT,On-On,16.7mm,10mm,M12*0.75,11.5mm,g-swi:SW_3PDT,g-swi:SW_STOMP_3PDT,

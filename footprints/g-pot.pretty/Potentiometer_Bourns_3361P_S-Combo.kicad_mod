@@ -1,4 +1,4 @@
-(footprint "Potentiometer_Bourns_3361P_Vertical"
+(footprint "Potentiometer_Bourns_3361P_S-Combo"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -273,22 +273,22 @@
 		(uuid "4975ce2e-f024-45aa-b90d-17e5c23fff5d")
 	)
 	(pad "1" smd rect
-		(at -2.54 3.2 90)
-		(size 3.3 1.2)
+		(at -2.54 2.8 90)
+		(size 4.1 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "c6001e63-c742-4acb-b9f0-a990b6128b22")
 	)
 	(pad "2" smd rect
-		(at 0 -3.2 90)
-		(size 3.3 1.2)
+		(at 0 -2.8 90)
+		(size 4.1 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "70e14e38-01d4-4614-b4c7-1cb89d766dc0")
 	)
 	(pad "3" smd rect
-		(at 2.54 3.2 90)
-		(size 3.3 1.2)
+		(at 2.54 2.8 90)
+		(size 4.1 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "0cb19617-8085-4500-86fc-0ec9a7d73d0d")

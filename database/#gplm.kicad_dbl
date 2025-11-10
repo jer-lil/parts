@@ -204,8 +204,8 @@
                 {
                     "column": "Capacitance",
                     "name": "Value",
-                    "visible_on_add": false,
-                    "visible_in_chooser": false,
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
@@ -232,8 +232,8 @@
                 {
                     "column": "Capacitance",
                     "name": "Capacitance",
-                    "visible_on_add": true,
-                    "visible_in_chooser": true,
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
                     "show_name": false
                 },
                 {
@@ -246,7 +246,7 @@
                 {
                     "column": "Material",
                     "name": "Material",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
@@ -259,7 +259,7 @@
                 },
                 {
                     "column": "Package/Case",
-                    "name": "Case/Package",
+                    "name": "Package/Case",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
                     "show_name": false
@@ -608,6 +608,13 @@
                 {
                     "column": "I-forward-max",
                     "name": "I-forward-max",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package/Case",
+                    "name": "Package/Case",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
                     "show_name": false
@@ -622,6 +629,13 @@
                 {
                     "column": "Wavelength",
                     "name": "Wavelength",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Luminosity",
+                    "name": "Luminosity",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
@@ -1007,14 +1021,14 @@
                 {
                     "column": "Voltage",
                     "name": "Voltage",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Current",
                     "name": "Current",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
@@ -1051,8 +1065,8 @@
                 {
                     "column": "Resistance",
                     "name": "Value",
-                    "visible_on_add": false,
-                    "visible_in_chooser": false,
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
@@ -1079,34 +1093,62 @@
                 {
                     "column": "Resistance",
                     "name": "Resistance",
-                    "visible_on_add": true,
-                    "visible_in_chooser": true,
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
                     "show_name": false
                 },
                 {
                     "column": "Power",
                     "name": "Power",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Package/Case",
-                    "name": "Case/Package",
+                    "name": "Package/Case",
                     "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Composition",
+                    "name": "Composition",
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Tolerance",
                     "name": "Tolerance",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Datasheet",
                     "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Temp Coefficient",
+                    "name": "Temp Coefficient",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Height",
+                    "name": "Height",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false

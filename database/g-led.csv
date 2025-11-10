@@ -1,2 +1,7 @@
-IPN,MPN,Manufacturer,Description,Symbol,Footprint,Color,I-forward-max,V-forward,Wavelength,Datasheet
-LED-0000-0000,5973301507F,Dialight,Green 573nm LED Indication - Discrete 2.2V 1208 (3020 Metric),Device:LED,g-dio:DIALIGHT_597-3XXX,GREEN,20mA,2.2V,573nm,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/560/LED_SMD_Selector_Guide_Jun2020.pdf
+IPN,MPN,Manufacturer,Description,Symbol,Footprint,Color,I-forward-max,Test Current,V-forward,Wavelength,Luminosity,Transparency,Package/Case,Datasheet
+LED-1000-R500,QBLP595-R5,QT Brightek,LED RED CLEAR 0402 SMD,Device:LED,LED_SMD:LED_0402_1005Metric,Red,30mA,5mA,1.85V,623nm,32mcd,Clear,0402,
+LED-1000-O500,QBLP595-O5,QT Brightek,LED ORANGE CLEAR 0402 SMD,Device:LED,LED_SMD:LED_0402_1005Metric,Orange,30mA,5mA,1.85V,605nm,30mcd,Clear,0402,
+LED-1000-Y500,QBLP595-Y5,QT Brightek,LED YELLOW CLEAR 0402 SMD,Device:LED,LED_SMD:LED_0402_1005Metric,Yellow,30mA,5mA,1.9V,590nm,32mcd,Clear,0402,
+LED-1000-G500,QBLP595-AG15-2897,QT Brightek,LED GREEN CLEAR 0402 SMD,Device:LED,LED_SMD:LED_0402_1005Metric,Green,30mA,5mA,1.9V,570nm,16.5mcd,Clear,0402,
+LED-1000-B500,QBLP595-IB5,QT Brightek,LED BLUE CLEAR 0402 SMD,Device:LED,LED_SMD:LED_0402_1005Metric,Blue,30mA,5mA,2.7V,470nm,38mcd,Clear,0402,
+LED-2000-0000,,,LED PTH 5mm Round – Standoff,Device:LED,g-dio:LED_D5.0mm_Standoff,,,,,,,,5mm Round,

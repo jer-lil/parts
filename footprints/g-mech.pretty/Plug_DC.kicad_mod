@@ -1,0 +1,134 @@
+(footprint "Plug_DC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(hide yes)
+		(uuid "ae5119c9-2a34-47a4-8d06-7af43adce32e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Plug_DC"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(hide yes)
+		(uuid "48efa83c-9ce0-4398-bb71-d2f6d78db624")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e17833ba-df69-40a4-b9b1-27bcda5b47d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24deb95a-4821-4f22-8c92-75b909da17d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2 -12)
+		(end -2 -22)
+		(stroke
+			(width 0.12)
+			(type dash_dot)
+		)
+		(layer "User.2")
+		(uuid "4fa57980-e877-48bc-abce-f68c6c8597e4")
+	)
+	(fp_line
+		(start 2 -12)
+		(end 2 -22)
+		(stroke
+			(width 0.12)
+			(type dash_dot)
+		)
+		(layer "User.2")
+		(uuid "09341d2f-bb17-4f95-bb4d-cd52a0c0d875")
+	)
+	(fp_rect
+		(start -5 -12)
+		(end 5 0)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "79918024-894c-4825-833f-66ad5360041e")
+	)
+	(fp_rect
+		(start -2.75 0)
+		(end 2.75 10)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "8e700fbc-cf42-402e-b5c6-776e5413c4f3")
+	)
+	(fp_rect
+		(start -2.75 9.6)
+		(end 2.75 10)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "74721da4-ecce-4fb1-bcef-e9e35ab6134f")
+	)
+	(fp_rect
+		(start -1.05 0)
+		(end 1.05 10)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "4e35e5e2-c9a4-4517-aacd-a7c8d1d472e6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Jacks/Audio/Jack_Qrtr_Open_Mono_NoSwitch_11.STEP"
+		(offset
+			(xyz 0 0 12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

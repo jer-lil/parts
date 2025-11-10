@@ -1,0 +1,121 @@
+(footprint "WirePad_H0.95mm_22-24AWG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.25 1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e8544291-e4a9-4871-96b2-5672176e07cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WirePad"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2388d7ea-7eda-4242-bdaf-2a55181dbc33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c075ba02-caf3-43d5-a0d2-e64fcddd99d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Wire pad, TH, 0.80mm hole, for 24AWG"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdc02eba-95dd-449e-ad4d-11d09156ceca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.05 1.2)
+		(end -1.05 -1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf975a37-1784-40d0-86fb-bb1b2803464c")
+	)
+	(fp_line
+		(start 1.05 -1.2)
+		(end -1.05 -1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c29f7e40-248c-4122-934a-479d65b2703a")
+	)
+	(fp_line
+		(start 1.05 1.2)
+		(end -1.05 1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de35685f-4078-4b40-abbb-046c3a2c6900")
+	)
+	(fp_line
+		(start 1.05 1.2)
+		(end 1.05 -1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "33f2bb95-e5ec-4b5d-9952-3e7542668627")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ee0ca733-6f62-44ce-ade1-472db0333120")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0 180)
+		(size 1.65 1.95)
+		(drill 0.95)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "992bfea0-1f56-4244-8eff-9122009fd1ca")
+	)
+	(embedded_fonts no)
+)

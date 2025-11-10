@@ -1,4 +1,11 @@
-IPN,Description,Symbol,Footprint,Comments
-ART-0000-0001,SMT Test Point 1.5mm round,g-art:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,"Artwork part only, does not appear in BOM"
-ART-0001-0006,TagConnect TC-2030 for PIC,g-con:Conn_PIC_TagConnect_TC2030,Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical,Cable to use with PIC: TC2030-MCP-NL
-ART-1000-0003,"Jumper, Mini 1x1.5mm, 3 pin – Pins 1+3 bridged",Jumper:Jumper_3_Bridged12,Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm,
+IPN,Description,Symbol,Diameter,Footprint,Comments
+ART-0000-0010,SMT Test Point 1.0mm round,g-art:TestPoint_SMD_Round,1.0mm,g-art:TestPoint_Pad_D1.0mm,
+ART-0000-0015,SMT Test Point 1.5mm round,g-art:TestPoint_SMD_Round,1.5mm,g-art:TestPoint_Pad_D1.5mm,
+ART-0001-0006,TagConnect TC-2030 for PIC,g-con:Conn_PIC_TagConnect_TC2030,N/A,Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical,Cable to use with PIC: TC2030-MCP-NL
+ART-1000-2001,"Jumper, Mini 1x1.5mm, 2 pin – Bridged 2 Bar",Jumper:Jumper_2_Small_Bridged,N/A,Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+ART-1000-3001,"Jumper, Mini 1x1.5mm, 3 pin – Pins 1+3 bridged",Jumper:Jumper_3_Bridged12,N/A,Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm,
+ART-1001-0P85,"Wire pad, TH, 0.85mm hole, for 24AWG",g-art:WirePad_PTH,0.85mm,g-art:WirePad_H0.85mm_24AWG,
+ART-1001-0P95,"Wire pad, TH, 0.95mm hole, for 22-24AWG",g-art:WirePad_PTH,0.95mm,g-art:WirePad_H0.95mm_22-24AWG,
+ART-1001-1P05,"Wire pad, TH, 1.05mm hole, for 22AWG",g-art:WirePad_PTH,1.05mm,g-art:WirePad_H1.05mm_22AWG,
+ART-0000-S102,"PTH Test Point, 1.02mm hole, with silkscreen circle",g-art:TestPoint_PTH,1.02mm,g-art:TestPoint_PTH_H1.02mm_Outline,"For probing or test point installation, e.g. 4614, 4582, 3450"
+ART-0000-N102,"PTH Test Point, 1.02mm hole, without silkscreen",g-art:TestPoint_PTH,1.02mm,g-art:TestPoint_PTH_H1.02mm_NoOutline,"For probing or test point installation, e.g. 4614, 4582, 3450"

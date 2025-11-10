@@ -1,0 +1,78 @@
+(footprint "TestPoint_PTH_H1.02mm_NoOutline"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ef608c6-b181-4a16-979f-b438c836a8a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_PTH_H1.02mm_NoOutline"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ea6cf0d4-ec14-4247-b992-ead833b38731")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01a448a3-1916-4f1c-83b1-144983a9e0c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "For probing directly, or for PTH test point installation. Without silkscreen for minimal space."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e20b636-4fa0-4083-b6fa-cc42f2aa5535")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7dbef936-a181-4bf1-a32c-38b50be7236a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "174202ba-b75c-4cf8-9d7c-468f4e4d1055")
+	)
+	(embedded_fonts no)
+)
