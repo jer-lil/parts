@@ -13,7 +13,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 0.635 3.81 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "XXu"
-			(at 0 -2.54 0)
+			(at 0.635 1.905 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -58,7 +58,7 @@
 			)
 		)
 		(property "Package/Case" "1206"
-			(at 0.254 1.27 0)
+			(at 0.635 -4.445 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -67,7 +67,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 1.27 0 0)
+			(at 0.635 -3.175 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 0.381 -1.27 0)
+			(at 0.635 -1.905 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -105,7 +105,7 @@
 		(symbol "C_0_1"
 			(polyline
 				(pts
-					(xy 1.016 0.254) (xy -1.016 0.254)
+					(xy -1.27 0.508) (xy 1.27 0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -117,7 +117,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 -0.254) (xy -1.016 -0.254)
+					(xy -1.27 -0.508) (xy 1.27 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -130,8 +130,8 @@
 		)
 		(symbol "C_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 3.429)
+				(at 0 5.08 270)
+				(length 4.445)
 				(name "~"
 					(effects
 						(font
@@ -148,8 +148,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.429)
+				(at 0 -5.08 90)
+				(length 4.445)
 				(name "~"
 					(effects
 						(font
@@ -166,7 +166,173 @@
 				)
 			)
 		)
-		(symbol "C_1_2"
+		(embedded_fonts no)
+	)
+	(symbol "C_400mil"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 3.81 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XXu"
+			(at 0.635 1.905 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "1206"
+			(at 0.635 -1.27 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 0.635 -3.81 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_400mil_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0.508) (xy 1.27 0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.508) (xy 1.27 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_400mil_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 4.445)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 4.445)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_400mil_1_2"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 3.175)
@@ -217,7 +383,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 0.635 3.81 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -226,7 +392,7 @@
 			)
 		)
 		(property "Value" "uF"
-			(at 0 -2.54 0)
+			(at 0.635 1.905 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -262,7 +428,7 @@
 			)
 		)
 		(property "Package/Case" "Case"
-			(at 0.635 1.27 0)
+			(at 0.635 -4.445 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -271,7 +437,7 @@
 			)
 		)
 		(property "Voltage" "xxV"
-			(at 1.27 0 0)
+			(at 0.635 -3.175 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -280,7 +446,7 @@
 			)
 		)
 		(property "Material" "Mat"
-			(at 0.635 -1.27 0)
+			(at 0.635 -1.905 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -309,32 +475,8 @@
 		(symbol "C_Pol_0_1"
 			(polyline
 				(pts
-					(xy -0.762 0.889) (xy -0.254 0.889)
+					(xy -1.27 0.508) (xy 1.27 0.508)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.508 0.635) (xy -0.508 1.143)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.016 -0.508)
-				(mid 0 -0.2382)
-				(end 1.016 -0.508)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -345,8 +487,32 @@
 			)
 			(polyline
 				(pts
-					(xy 1.016 0.254) (xy -1.016 0.254)
+					(xy -0.889 1.27) (xy -0.381 1.27)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.016) (xy -0.635 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 -0.635)
+				(mid 0 -0.381)
+				(end 1.27 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -358,8 +524,8 @@
 		)
 		(symbol "C_Pol_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 3.556)
+				(at 0 5.08 270)
+				(length 4.445)
 				(name "~"
 					(effects
 						(font
@@ -376,8 +542,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.556)
+				(at 0 -5.08 90)
+				(length 4.572)
 				(name "~"
 					(effects
 						(font

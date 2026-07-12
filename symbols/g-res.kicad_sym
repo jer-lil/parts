@@ -13,7 +13,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 -2.54 0)
+			(at 0.635 3.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "Res"
-			(at 0 2.54 0)
+			(at 0.635 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 0.635 1.27 0)
+			(at 0.635 -1.905 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -68,7 +68,7 @@
 			)
 		)
 		(property "Tolerance" "0.1%"
-			(at 0.635 -1.27 0)
+			(at 0.635 -0.635 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -77,7 +77,7 @@
 			)
 		)
 		(property "Package/Case" "1210"
-			(at 0.635 0 0)
+			(at 0.635 -3.175 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -108,7 +108,7 @@
 		(symbol "R_0_1"
 			(polyline
 				(pts
-					(xy 0 1.524) (xy 0 2.54)
+					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -120,11 +120,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.524) (xy 0.508 1.27) (xy -0.508 0.762) (xy 0.508 0.254) (xy -0.508 -0.254) (xy 0.508 -0.762)
-					(xy -0.508 -1.27) (xy 0 -1.524) (xy 0 -1.524)
+					(xy 0 2.286) (xy 0.762 1.905) (xy 0 1.524) (xy -0.762 1.143) (xy 0 0.762)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -133,7 +132,31 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.524) (xy 0 -2.54)
+					(xy 0 0.762) (xy 0.762 0.381) (xy 0 0) (xy -0.762 -0.381) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762) (xy 0.762 -1.143) (xy 0 -1.524) (xy -0.762 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -146,8 +169,8 @@
 		)
 		(symbol "R_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
+				(at 0 5.08 270)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -164,8 +187,213 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "R_400mil"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0.635 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Res"
+			(at 0.635 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 1.27 -4.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Package/Case" "1210"
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_400mil_0_1"
+			(polyline
+				(pts
+					(xy 0 2.286) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286) (xy 0.762 1.905) (xy 0 1.524) (xy -0.762 1.143) (xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762) (xy 0.762 0.381) (xy 0 0) (xy -0.762 -0.381) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762) (xy 0.762 -1.143) (xy 0 -1.524) (xy -0.762 -1.905) (xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_400mil_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font

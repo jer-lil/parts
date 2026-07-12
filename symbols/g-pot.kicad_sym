@@ -11,19 +11,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "RV"
-			(at -4.445 0 90)
+			(at 1.27 3.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R_Potentiometer_US"
-			(at -2.54 0 90)
+		(property "Value" "Pot_Dual"
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -74,11 +76,12 @@
 		(symbol "Pot_Dual_0_1"
 			(polyline
 				(pts
-					(xy -1.524 -1.778) (xy -1.778 -1.524)
+					(xy -1.27 1.905) (xy -1.524 1.651)
 				)
 				(stroke
-					(width 0.0762)
+					(width 0.127)
 					(type default)
+					(color 204 102 0 1)
 				)
 				(fill
 					(type none)
@@ -86,11 +89,12 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 -1.778) (xy -1.27 -1.524)
+					(xy -1.27 1.905) (xy -1.524 1.651)
 				)
 				(stroke
-					(width 0.0762)
+					(width 0.127)
 					(type default)
+					(color 204 102 0 1)
 				)
 				(fill
 					(type none)
@@ -98,7 +102,46 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 2.286)
+					(xy -1.27 1.905) (xy -1.27 -1.016)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+					(color 204 102 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.905) (xy -1.016 1.651)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+					(color 204 102 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.905) (xy -1.016 1.651)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+					(color 204 102 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -110,7 +153,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 2.286) (xy 0.762 1.905) (xy 0 1.524) (xy -0.762 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -122,7 +165,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					(xy 0 0.762) (xy 0.762 0.381) (xy 0 0) (xy -0.762 -0.381) (xy 0 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -134,7 +177,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 -0.762) (xy 0.762 -1.143) (xy 0 -1.524) (xy -0.762 -1.905) (xy 0 -2.286)
 				)
 				(stroke
 					(width 0)
@@ -158,7 +201,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					(xy 1.016 0) (xy 1.905 0.381) (xy 1.905 -0.381) (xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -168,62 +211,22 @@
 					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.524 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+			(text "CW\n"
+				(at -1.27 -1.905 900)
+				(effects
+					(font
+						(face "Arial")
+						(size 0.508 0.508)
+						(bold yes)
+						(color 204 102 0 1)
+					)
 				)
 			)
 		)
 		(symbol "Pot_Dual_1_1"
-			(polyline
-				(pts
-					(xy -1.524 -1.778) (xy -1.524 0.762)
-				)
-				(stroke
-					(width 0.0762)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "CW\n"
-				(at -1.524 1.524 900)
-				(effects
-					(font
-						(face "Arial")
-						(size 0.381 0.381)
-					)
-				)
-			)
 			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
+				(at 0 5.08 270)
+				(length 2.54)
 				(name "3"
 					(effects
 						(font
@@ -240,8 +243,26 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 3.048)
 				(name "2"
 					(effects
 						(font
@@ -259,48 +280,20 @@
 			)
 		)
 		(symbol "Pot_Dual_2_1"
-			(polyline
-				(pts
-					(xy -1.524 -1.778) (xy -1.524 0.762)
-				)
-				(stroke
-					(width 0.0762)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(text "CW\n"
-				(at -1.524 1.524 900)
+				(at -1.27 -1.905 900)
 				(effects
 					(font
 						(face "Arial")
-						(size 0.381 0.381)
+						(size 0.508 0.508)
+						(bold yes)
+						(color 204 102 0 1)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
+				(at 0 5.08 270)
+				(length 2.54)
 				(name "6"
 					(effects
 						(font
@@ -317,8 +310,26 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 3.048)
 				(name "5"
 					(effects
 						(font
@@ -346,19 +357,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "RV"
-			(at -3.81 0.635 0)
+			(at 1.27 3.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "VALUE"
-			(at -5.08 -1.27 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -409,11 +422,12 @@
 		(symbol "Pot_Single_0_1"
 			(polyline
 				(pts
-					(xy -1.524 -1.778) (xy -1.778 -1.524)
+					(xy -1.143 -2.54) (xy -1.397 -2.286)
 				)
 				(stroke
-					(width 0.0762)
+					(width 0.127)
 					(type default)
+					(color 204 102 0 1)
 				)
 				(fill
 					(type none)
@@ -421,11 +435,12 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 -1.778) (xy -1.27 -1.524)
+					(xy -1.143 -2.54) (xy -0.889 -2.286)
 				)
 				(stroke
-					(width 0.0762)
+					(width 0.127)
 					(type default)
+					(color 204 102 0 1)
 				)
 				(fill
 					(type none)
@@ -433,19 +448,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -457,7 +460,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					(xy 0 2.286) (xy 0.762 1.905) (xy 0 1.524) (xy -0.762 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -469,7 +472,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 0.762) (xy 0.762 0.381) (xy 0 0) (xy -0.762 -0.381) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762) (xy 0.762 -1.143) (xy 0 -1.524) (xy -0.762 -1.905) (xy 0 -2.286)
 				)
 				(stroke
 					(width 0)
@@ -493,7 +508,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					(xy 1.016 0) (xy 1.905 0.381) (xy 1.905 -0.381) (xy 1.016 0)
 				)
 				(stroke
 					(width 0)
@@ -503,62 +518,35 @@
 					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.524 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "Pot_Single_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -1.778) (xy -1.524 0.762)
+					(xy -1.143 -2.54) (xy -1.143 1.143)
 				)
 				(stroke
-					(width 0.0762)
+					(width 0.127)
 					(type default)
+					(color 204 102 0 1)
 				)
 				(fill
 					(type none)
 				)
 			)
 			(text "CW\n"
-				(at -1.524 1.524 900)
+				(at -1.143 1.905 900)
 				(effects
 					(font
 						(face "Arial")
-						(size 0.381 0.381)
+						(size 0.508 0.508)
+						(bold yes)
+						(color 204 102 0 1)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
+				(at 0 5.08 270)
+				(length 2.54)
 				(name "3"
 					(effects
 						(font
@@ -575,8 +563,26 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 3.048)
 				(name "2"
 					(effects
 						(font
@@ -603,19 +609,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "RV"
-			(at 2.54 -1.905 0)
+			(at 0.635 3.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "VALUE"
-			(at -5.08 -1.905 0)
+			(at 0.635 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -653,38 +661,29 @@
 				)
 			)
 		)
-		(symbol "Pot_Single_SPST_1_1"
+		(symbol "Pot_Single_SPST_0_1"
 			(polyline
 				(pts
-					(xy -1.524 -1.778) (xy -1.778 -1.524)
+					(xy 1.016 0) (xy 1.905 0.381) (xy 1.905 -0.381) (xy 1.016 0)
 				)
 				(stroke
-					(width 0.0762)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.524 -1.778) (xy -1.524 0.762)
-				)
-				(stroke
-					(width 0.0762)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
+		)
+		(symbol "Pot_Single_SPST_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -1.778) (xy -1.27 -1.524)
+					(xy -1.143 -2.54) (xy -1.397 -2.286)
 				)
 				(stroke
-					(width 0.0762)
+					(width 0.127)
 					(type solid)
+					(color 204 102 0 1)
 				)
 				(fill
 					(type none)
@@ -692,7 +691,33 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 2.286)
+					(xy -1.143 -2.54) (xy -1.143 1.143)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+					(color 204 102 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.143 -2.54) (xy -0.889 -2.286)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+					(color 204 102 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -704,7 +729,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 2.286) (xy 0.762 1.905) (xy 0 1.524) (xy -0.762 1.143) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -716,7 +741,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					(xy 0 0.762) (xy 0.762 0.381) (xy 0 0) (xy -0.762 -0.381) (xy 0 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -728,7 +753,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 -0.762) (xy 0.762 -1.143) (xy 0 -1.524) (xy -0.762 -1.905) (xy 0 -2.286)
 				)
 				(stroke
 					(width 0)
@@ -750,60 +775,20 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.524 0)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(text "CW\n"
-				(at -1.524 1.524 900)
+				(at -1.143 1.905 900)
 				(effects
 					(font
 						(face "Arial")
-						(size 0.381 0.381)
+						(size 0.508 0.508)
+						(bold yes)
+						(color 204 102 0 1)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
+				(at 0 5.08 270)
+				(length 2.54)
 				(name "3"
 					(effects
 						(font
@@ -820,8 +805,26 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 3.048)
 				(name "2"
 					(effects
 						(font
